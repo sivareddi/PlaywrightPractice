@@ -20,5 +20,5 @@ test("Applitools challenge 01 - spent vs earned", async ({ page }) => {
     console.log(`Net value: ${netValue}`);
     expect(netValue).toBeCloseTo(1996.22, 2);
 
-    await page.pause();
+
 });
