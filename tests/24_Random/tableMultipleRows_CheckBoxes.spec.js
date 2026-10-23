@@ -30,5 +30,4 @@ test("Selecting multiple rows in a table with Check boxes", async ({ page }) => 
     }
 
 
-    await page.pause();
 });

@@ -31,5 +31,5 @@ test("Verify the Webtable Example 1" , async({page}) => {
 
         }
     }
-    page.pause();
+
 });

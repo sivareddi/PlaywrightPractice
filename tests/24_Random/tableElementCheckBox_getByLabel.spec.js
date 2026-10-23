@@ -12,6 +12,5 @@ test("Handling a checkbox in a web table", async ({ page }) => {
     await chkBoxXPath.check();
     console.log(await chkBoxXPath.isChecked());
     //To stop the browser without closing post the previous STEP execution completion.
-    await page.pause();
 
 })

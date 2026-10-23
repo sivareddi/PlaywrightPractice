@@ -28,6 +28,5 @@ test("Handling a checkbox in a web table", async({page}) => {
         }
 
     }
-    await page.pause();
-
+  
 })

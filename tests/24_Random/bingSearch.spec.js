@@ -21,6 +21,5 @@ test("Bing browser search", async({page}) => {
    // await expect(page).toHaveURL(/search\?q=Playwright/);
     // await searchTextBox.press('Enter');
     // await expect(page).toHaveURL(/search\?q=Playwright/);
-    await page.pause();
 
 })

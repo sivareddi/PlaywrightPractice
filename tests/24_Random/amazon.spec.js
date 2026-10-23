@@ -18,5 +18,5 @@ test.only("Amazon products list", async({page}) => {
     console.log("------------------------------------------------------------------------------")
     const productNames2 = productNames.map(productName => productName.trim());
     console.log(productNames2);
-    await page.pause();
+
 })

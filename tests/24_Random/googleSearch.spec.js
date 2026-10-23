@@ -15,7 +15,7 @@ test('First Playwright test', async({page}) => {
     //const searchButton = page.getByLabel('Search').first();
     await searchButton.click();
     await expect(page.locator('h2[@text()="Web result with site links"]'));
-    await page.pause();
+
 }); 
 
 

@@ -63,5 +63,4 @@ test("Cloud QA Employees validation", async ({ page }) => {
         }
     }
 
-    await page.pause();
 })
