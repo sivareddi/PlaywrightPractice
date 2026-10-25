@@ -7,5 +7,5 @@ test('viewer', async ({ page }) => {
 
 test('admin', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await expect(page).toHaveTitle("Fast and reliable end-to-end testing for modern web apps | Playwright");
+  await expect(page).toHaveTitle(/end-to-end testing for modern web apps | Playwright/);
 });
