@@ -8,7 +8,7 @@ test("BCP - in app.vwo.com two roles", async ({ browser }) => {
 
     let adminContext = await browser.newContext();
     let userContext = await browser.newContext();
-    let guestConetxt = await browser.newContext();
+    let guestContext = await browser.newContext();
 
     let adminPage = await adminContext.newPage();
     await adminPage.goto("https://app.thetestingacademy.com/playwright/");
@@ -16,7 +16,7 @@ test("BCP - in app.vwo.com two roles", async ({ browser }) => {
     let userPage = await userContext.newPage();
     await userPage.goto("https://sdet.live");
 
-    let guestPage = await guestConetxt.newPage();
+    let guestPage = await guestContext.newPage();
     await guestPage.goto("https://scrolltest.com");
 
 
